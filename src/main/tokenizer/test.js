@@ -1,5 +1,9 @@
-var joker = 6 * 3;
+var esprima = require('esprima');
+var escope = require('escope');
 
-// comments
-// asd
-// asd
+var example = "var joker = 6 * 3;";
+var ast = esprima.parse(example);//, {range: true, loc:true});
+var scopeManager = escope.analyze(ast);
+var currentScope = scopeManager.acquire(ast);
+
+console.log(currentScope);

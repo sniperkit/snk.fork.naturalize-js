@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           watch: true // detect all target files from root?
         }
       }
-    }
+    };
 
 
     jshint: {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 var esprima = require('esprima');
 var escope = require('escope');
 

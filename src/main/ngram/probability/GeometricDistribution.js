@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 "use strict";
 var Math = require('math');
 var GeometricDistriubtion = (function () {

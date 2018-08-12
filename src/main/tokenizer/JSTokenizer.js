@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 class Tokenizer {
     constructor(input) {
         this.fs = require('fs');
